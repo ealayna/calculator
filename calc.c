@@ -2,6 +2,8 @@
 #include<unistd.h>
 #include<string.h>
 
+//In process.
+
 size_t ft_strlen(char *s)
 {
     return(*s != '\0' ? 1 + ft_strlen(s + 1) : 0);
